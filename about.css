@@ -101,7 +101,31 @@ body {
 @media (max-width:768px){
   .about-hero{
     padding: 10px ;
+    margin-top: 80px;
+    flex-direction: column;
   }
+  .about-text{
+    padding: 20px 6%;
+  }
+  .about-text .about-outline{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 124px;
+  }
+  .about-text h2{
+  font-size: 45px;
+  line-height: 1.1;
+  margin-top: -30px;
+  margin-bottom: 30px;
+
+  }
+
+  .about-text p{
+    font-size: 20px;
+    line-height: 1.4;
+    min-width: 90vw;
+    }
+
 }
 
 @media (max-width:480px) {
@@ -120,28 +144,33 @@ body {
  .about-hero{
   flex-direction: column;
   margin-top: 80px;
+  padding: 20px 4% ;
  }
- .about-text h1{
-  font-size: 40px;
-  margin-top: 25px;
+ .about-text .about-outline{
+  font-size: 35px;
+  margin-top: 30px;
+
 
  }
 
  .about-text h2{
   font-size: 35px;
   line-height: 1;
+  margin: 0;
+  
 
   
  }
- .about-text{
-  padding: 0 20px;
- }
+ 
  .about-text p{
   line-height: 1.4;
   font-size: 18px;
   margin-top: 25px;
 
  }
+ .about-text{
+  padding: 20px 0%;
+}
 
 
 }
@@ -337,6 +366,11 @@ body {
   .mission-container{
     grid-template-columns: 1fr;
     padding: 0;
+    
+
+  }
+  .mission-text{
+    min-width: 100vw;
   }
 
  }
@@ -356,11 +390,11 @@ body {
   }
   .mission-container{
     grid-template-columns: 1fr;
-    padding: 5px;
+    padding: 5px 2%;
     margin: 0;
   }
   .mission-text{
-    min-width: 430px;
+    min-width: 90vw;
     padding: 2%;
   }
   .mission-text h2{
@@ -369,10 +403,22 @@ body {
   .mission-text p{
     font-size: 18px;
   }
+  .mission-section{
+    padding: 0 1%;
+    margin: 0;
+    min-width: 90vw;
+  }
 
  }
 
+/*  our team */
 
+@media (max-width:480px){
+  .our-team{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 
 
   
