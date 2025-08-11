@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+   
     <header class="header">
       <nav class="nav-container">
         <a href="https://snabbtech.com/">
@@ -18,19 +19,24 @@
           />
         </a>
 
-        <ul class="nav-ul-list">
+        <ul class="nav-ul-list nav-display">
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="service.html">Services</a></li>
-          <li><a href="#">Industry</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Partnership</a></li>
+          <li><a href="industry.html">Industry</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="partnership.html">Partnership</a></li>
           <li><a href="blog.html">Blog</a></li>
         </ul>
+
+        <div class="nav-menu">
+          ☰
+          </div>
 
         <button class="nav-btn btn">Get in Touch</button>
       </nav>
     </header>
+  
 
     <!-- hero -->
 
@@ -798,7 +804,7 @@
       <section class="blog-section">
         <div class="blog-header">
           <h2>Our Latest <span>Blog Posts.</span></h2>
-          <button class="all-posts-btn btn">Show all our posts →</button>
+          <button class="nav-btn">Show all our posts →</button>
         </div>
   
         <div class="blog-grid">
@@ -815,7 +821,7 @@
               and making many practical changes possible. Working with a skilled
               mobile app development company is
             </p>
-            <a class="read-more btn" href="#">READ MORE →</a>
+            <a class="nav-btn" href="#">READ MORE →</a>
           </div>
   
           <div class="blog-card">
@@ -834,7 +840,7 @@
               improve an organization’s success and ability to compete. When you
               include technology in your business plan, you
             </p>
-            <a class="read-more btn" href="#">READ MORE →</a>
+            <a class="nav-btn" href="#">READ MORE →</a>
           </div>
   
           <div class="blog-card">
@@ -850,7 +856,7 @@
               independently. By learning some essential business tips, you can
               figure out which options will work
             </p>
-            <a class="read-more btn" href="#">READ MORE →</a>
+            <a class="nav-btn" href="#">READ MORE →</a>
           </div>
   
           <div class="blog-card">
@@ -866,7 +872,7 @@
               not determine whether your business will succeed in practice. Many
               fantastic concepts still need a proper plan to run
             </p>
-            <a class="read-more btn" href="#">READ MORE →</a>
+            <a class="nav-btn" href="#">READ MORE →</a>
           </div>
   
           <div class="blog-card">
@@ -885,7 +891,7 @@
               workers can keep moving. One of the other effects of this change is
               that shipping companies have suddenly lost money
             </p>
-            <a class="read-more btn" href="#">READ MORE →</a>
+            <a class="nav-btn" href="#">READ MORE →</a>
           </div>
         </div>
       </section>
@@ -948,7 +954,18 @@
             <p>Copyright © 2025 SnabbTech | All Rights Reserved</p>
           </div>
         </footer>
+        <script>
+          const menuIcon = document.querySelector(".nav-menu");
+          const navbar = document.querySelector(".nav-ul-list");
+        
+          menuIcon.addEventListener("click", () => {
+           navbar.classList.toggle("nav-display");
   
+          
+          });
+        </script>
 
+
+  
   </body>
 </html>

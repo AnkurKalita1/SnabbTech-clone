@@ -1,0 +1,231 @@
+  /* Gradient background */
+  .portfolio-hero-section {
+    background: linear-gradient(to bottom, #5fc49d, #0d5c76);
+    color: white;
+    padding: 100px 0;
+    /* padding: 100px; */
+    margin-top: 70px;
+
+  }
+
+  /* Card image hover effect */
+  .portfolio-hero-card img {
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80%;
+  }
+  .portfolio-card img:hover {
+    transform: scale(1.05);
+  }
+
+  /* Project title below image */
+  .portfolio-title {
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: "sf pro",sans-serif;
+    font-size: 16px;
+  }
+
+  .portfolio-hero-container{
+    padding: 50px 0;
+  }
+
+  .portfolio-hero-cards{
+    padding: 60px 30px;
+  }
+
+  .portfolio-hero-container-left p{
+   font-size: 18px;
+   font-family: "TEXT" ,sans-serif;
+  }
+
+  .portfolio-hero-container-left h1{
+    font-size: 50px;
+    font-family: "sf pro" ,sans-serif;
+     }
+
+  .portfolio-hero-container-left .subtext{
+     font-size: 24px;
+     font-family: "TEXT" ,sans-serif;
+         }
+
+/* tennispal section */
+
+     .tennis-section {
+            background-color: #a54f2f; /* Brownish background */
+            color: white;
+           
+
+          }
+         .app-icons img {
+            width: 30px;
+            margin-right: 10px;
+          }
+          
+         .bg-img{
+            background-image: url(https://snabbtech.com/wp-content/uploads/2024/06/pexels-mo-saeed-3616599-5409085-scaled.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+         } 
+
+         .portfolio-tennispal{
+            /* max-height: 100vh; */
+            height: 100vh;
+
+         }
+
+         .downloads h4{
+          font-size: 40px;
+          font-family: "TEXT" ,sans-serif;
+         }
+         .downloads p{
+          font-size: 18px;
+          font-family: "TEXT" ,sans-serif;
+         }
+         .rating h4{
+          font-size: 40px;
+          font-family: "Jost" ,sans-serif;
+         }
+         .downloads p{
+          font-size: 20px;
+          font-family: "Jost" ,sans-serif;
+         }
+
+        
+
+button .bttn{
+  background-color: #70AA26;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  border: none;
+  /* width: 140px;
+  height: 43px; */
+  margin-top: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  outline: none;
+
+}
+
+ .tennis-section-subtext{
+  font-size: 22px ;
+  font-family: "TEXT" ,sans-serif;
+  line-height: 1.6;
+}
+
+/*   snabbLab */
+
+.bg-img-snabbLab{
+  background-image: url(https://snabbtech.com/wp-content/uploads/2024/06/pexels-rdne-6129877-scaled.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.snabbLab-section{
+  background-color: #61CE70D1;
+  color: white;
+}
+
+.snabbLab-btn{
+  background-color:#FFFFFF  ;
+  color:  #70AA26;
+  font-family: sans-serif;
+  border: none;
+  margin-top: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
+
+/* WeReportSection */
+
+.bg-img-weReport{
+  background-image: url(https://snabbtech.com/wp-content/uploads/2024/06/pexels-olly-3756678-scaled.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.weReport-btn{
+  border: 2px solid white;
+  color: white;
+  background-color: #B2BF27;
+  border-color: #FFFFFF;
+  
+
+  margin-top: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 10px 30px;
+  text-decoration: none;
+  outline: none;
+  border-radius: 4px;
+}
+.weReport-section{
+  background-color: #B2BF27;
+  color: white;
+}
+.portfolio-weReport{
+  max-height: 70vh;
+  height: 100%;
+  
+}
+
+/*  squfood */
+.bg-img-squfood{
+  background-image: url(https://snabbtech.com/wp-content/uploads/2024/06/pexels-cottonbro-4604668-scaled.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Squfood-section{
+  background-color:#C76C3B;
+  color: white;
+} 
+
+/*  Nsigma ecommerce */
+
+.Nsigma-section{
+  background-color:#D84C00;
+  color: white;
+} 
+
+.bg-img-Nsigma{
+  background-image: url(https://snabbtech.com/wp-content/uploads/2024/06/pexels-borevina-1778412-scaled.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Nsigma-section h1{
+  font-size: 48px;
+  font-family: "sf pro",sans-serif;
+}
+
+.testimonials{
+  margin-top: 400px;
+}
+.nav-btn{
+  font-family: "TEXT", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  background-color: #70AA26;
+  border-style: solid;
+  padding: 12px 20px 12px 20px;
+  border: none;
+}  
